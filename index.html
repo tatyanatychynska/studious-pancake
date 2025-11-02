@@ -4,28 +4,58 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/studious-pancake/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>Business promotion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:wght@100..900&family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <script type="module" crossorigin src="/studious-pancake/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/studious-pancake/assets/styles-DvPDDfy5.css">
+    <link rel="stylesheet" crossorigin href="/studious-pancake/assets/styles-B0Z6AnaW.css">
   </head>
   <body>
-    <header class="header">
+    <header class="main-header">
   <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="/studious-pancake/assets/sprite-E8vg0sBb.svg#logo"></use>
-        </svg>
+    <!--(nav>(a>img)+ul>li*4>a)+ul>li*2>button-->
+    <nav class="navigation">
+      <a class="nav-logo" href="./index.html"
+        ><img
+          src="../img/first-page/logo.png"
+          alt="logo"
+          class="nav-logo-img"
+        />Product
       </a>
       <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+        <li class="nav-list-item">
+          <a class="nav-list-link current" href="./index.html">Product</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./pricing.html">Pricing</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./customers.html">Customers</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./resources.html">Resources</a>
         </li>
       </ul>
     </nav>
+    <ul class="header-list-btn">
+      <li class="header-item-btn">
+        <button type="button" class="header-btn sign-in">Sign In</button>
+      </li>
+      <li class="header-item-btn">
+        <button type="button" class="header-btn sign-up">Sign Up</button>
+      </li>
+    </ul>
   </div>
 </header>
 
