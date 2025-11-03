@@ -1,0 +1,66 @@
+.hero {
+  padding: 25px 0 50px;
+}
+.hero .container {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #22343d;
+  margin-bottom: 18px;
+  max-width: 385px;
+}
+.hero-title-desc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55556;
+  color: #22343d;
+  margin-bottom: 45px;
+}
+.hero-list-btn {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.hero-list-item {
+}
+.hero-btn {
+  min-width: 178px;
+  height: 53px;
+  border-radius: 4px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: #02897a;
+  transition: background-color 250ms cubic-bezier(0.5, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.5, 0, 0.2, 1);
+}
+.hero-btn-icon {
+  fill: currentColor;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #02897a;
+  color: #ffffff;
+}
+.get-started {
+  width: 178px;
+  height: 53px;
+  background: #02897a;
+  font-weight: 700;
+  color: #fff;
+}
+.watch-btn {
+  background-color: transparent;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #02897a;
+  font-weight: 600;
+}
